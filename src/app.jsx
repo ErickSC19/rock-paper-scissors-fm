@@ -9,15 +9,13 @@ export function App () {
   return (
     <>
       <div class='flex flex-col items-center min-h-screen max-h-fit p-8'>
-        <header class='w-1/2 px-6 py-4 flex place-content-evenly border-2 rounded-xl border-headeer-outline'>
-          <img class='mr-auto' src={logo} alt='Rock, Paper, Scissors' />
+        <header class='w-1/2 px-6 py-4 flex justify-between border-2 rounded-xl border-headeer-outline'>
+          <img class='' src={logo} alt='Rock, Paper, Scissors' />
           <Score />
         </header>
         <GameBoard />
         <button class='self-end mt-auto border-2 rounded-xl border-headeer-outline py-2 px-10 hover:border-white hover:bg-white hover:text-black mix-blend-screen' onClick={() => setOpen(true)}>RULES</button>
-        <div class={`${open ? 'visible' : 'transition-all hidden'} transition-all`}>
-          <RulesModal setIsOpen={setOpen} />
-        </div>
+        <RulesModal setIsOpen={setOpen} isOpen={open} />
       </div>
 
     </>
