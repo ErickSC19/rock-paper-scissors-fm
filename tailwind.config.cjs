@@ -23,7 +23,9 @@ module.exports = {
       },
       boxShadow: {
         'inner-3d-down': 'inset 0rem -0.3rem rgba(0, 0, 0, 0.3)',
-        'inner-3d-up': 'inset 0rem 0.3rem rgba(0, 0, 0, 0.1)'
+        'inner-3d-up': 'inset 0rem 0.3rem rgba(0, 0, 0, 0.1)',
+        winner:
+          '0px 0px 1px 40px rgba(100, 100, 100, 0.1), 0px 0px 1px 80px rgba(100 100, 100, 0.1),  0px 0px 1px 120px rgba(100 100, 100, 0.1);'
       }
     }
   },

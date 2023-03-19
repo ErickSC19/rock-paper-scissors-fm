@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "animejs": "^3.2.1",
     "preact": "^10.11.3"
   },
   "devDependencies": {
@@ -18,7 +19,8 @@
     "semistandard": "^16.0.1",
     "tailwindcss": "^3.2.7",
     "vite": "^4.1.0"
-  }, "eslintConfig": {
+  },
+  "eslintConfig": {
     "extends": "./node_modules/semistandard/eslintrc.json"
   }
 }
